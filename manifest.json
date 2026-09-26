@@ -1,0 +1,24 @@
+{
+  "version": "m12-c1-models",
+  "base": "m12-c1-models/",
+  "variants": {
+    "small": {
+      "file": "mobilenetv2-features.onnx",
+      "probe": "mobilenetv2-probe.json",
+      "size": 3595595,
+      "sha256": "d71d92ebb487ed5bce1e73b639f29218ed8685c6fa791d18dff7784ddc322058",
+      "probeSha256": "3dcf6c263bd602a57d3dce9a7d1bdd1160c5ae04a1d6806de77c9eaafc44fac2",
+      "featureDim": 1280,
+      "input": "NCHW 224x224"
+    },
+    "large": {
+      "file": "resnet50-features.onnx",
+      "probe": "resnet50-probe.json",
+      "size": 26130707,
+      "sha256": "577f8303d9ba24023df9914d98ede41b10947c31e22d65433a80d01dfda371ca",
+      "probeSha256": "bb0cdb2c5f3bca0ddf0d433a67a045786eac57f55c3635001ec7adc325b0df20",
+      "featureDim": 2048,
+      "input": "NCHW 224x224"
+    }
+  }
+}
